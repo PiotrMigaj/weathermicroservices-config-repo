@@ -2,8 +2,6 @@ server:
   port: 8081
 
 spring:
-  application:
-    name: location-service
   datasource:
     username: root
     password: root
