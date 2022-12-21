@@ -18,7 +18,7 @@ spring:
   zipkin:
     base-url: http://localhost:9411
   boot:
-    message: 'Hello, location-service'
+    message: 'Hello, location-service updated'
 
 eureka:
   client:
