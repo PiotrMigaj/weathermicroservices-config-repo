@@ -23,7 +23,7 @@ spring:
     username: guest
     password: guest
   boot:
-    message: 'Hello, forecast-service'
+    message: 'Hello, forecast-service updated 22.12.2022'
 
 eureka:
   client:
