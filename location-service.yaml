@@ -17,11 +17,11 @@ spring:
         dialect: 'org.hibernate.dialect.MySQL8Dialect'
   zipkin:
     base-url: http://localhost:9411
-#   rabbitmq:
-#     host: localhost
-#     port: 5672
-#     username: guest
-#     password: guest
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
   boot:
     message: 'Hello, location-service updated 22.12.2022'
 
@@ -32,8 +32,8 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     
-# management:
-#   endpoints:
-#     web:
-#       exposure:
-#         include: '*'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
